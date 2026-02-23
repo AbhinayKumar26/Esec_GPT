@@ -1,0 +1,145 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .userDiv{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9rem;
+
+}
+
+.gptDiv{
+    text-align: left;
+    font-size: 0.9rem;
+
+} */
+
+/* .userMessage{
+    background-color: #323232;
+    padding: 10px 20px;
+    border-radius: 14px;
+    margin-left: 15rem;
+    max-width: 500px;
+    width: fit-content;
+
+} 
+
+.hljs {
+  border-radius: 14px !important;
+}
+
+pre {
+  white-space: pre-wrap;    
+} */
+
+
+
+/* .newChatTitle {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  pointer-events: none;
+}
+
+
+.userDiv,
+.gptDiv {
+    font-size: 1.05rem;
+    line-height: 1.7;
+} */
+
+
+
+
+
+
+
+
+.userDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.gptDiv {
+    text-align: left;
+} 
+
+
+.userDiv,
+.gptDiv {
+    font-size: 1.1rem;      
+    line-height: 1.7;
+}
+
+
+.userMessage {
+    background-color: #323232;
+    padding: 14px 22px;
+
+    border-radius: 14px;
+    margin-left: auto;
+
+    max-width: 75%;
+}
+
+
+pre {
+    white-space: pre-wrap;
+    font-size: 1.05rem;
+}
+
+.hljs {
+    border-radius: 14px !important;
+} 
+
+
+
+/* ================= MOBILE RESPONSIVE ONLY ================= */
+@media (max-width: 768px) {
+  .userDiv,
+  .gptDiv {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .userMessage {
+    padding: 12px 18px;
+    max-width: 85%;
+  }
+
+  pre {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .userDiv,
+  .gptDiv {
+    font-size: 0.95rem;
+  }
+
+  .userMessage {
+    max-width: 92%;
+    padding: 10px 14px;
+    border-radius: 12px;
+  }
+
+  pre {
+    font-size: 0.9rem;
+  }
+}
+
+
+

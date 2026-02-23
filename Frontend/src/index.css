@@ -1,0 +1,13 @@
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: #212121;   /* ✅ old bg */
+}
+
+body {
+  color: #ececec;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow: hidden; /* ✅ removes white scroll strip */
+}

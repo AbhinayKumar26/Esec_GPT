@@ -1,0 +1,21 @@
+* {
+  color: #ececec;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  flex-direction: row; 
+  height: 100dvh;      /* ✅ best for mobile too */
+  width: 100vw;
+  background: #212121;
+  overflow: hidden;
+}
+
+/* Mobile: sidebar overlay */
+@media (max-width: 768px) {
+  .app {
+    position: relative;
+  }
+}
