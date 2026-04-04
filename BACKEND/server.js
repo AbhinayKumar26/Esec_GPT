@@ -15,8 +15,12 @@ app.use(express.json({ limit: "1mb" }));
 
 
 // Health check (to test server is ON)
-app.get("/health", (req, res) => {
-  res.json({ ok: true, message: "Server is running ✅" });
+// app.get("/health", (req, res) => {
+//   res.json({ ok: true, message: "Server is running ✅" });
+// });
+
+app.get("/", (req, res) => {
+  res.send("Backend working ✅");
 });
 
 // Routes
