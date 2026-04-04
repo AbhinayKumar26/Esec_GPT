@@ -1,3 +1,6 @@
+
+
+
 import express from "express";
 import cors from "cors";
 import "dotenv/config";
@@ -22,6 +25,16 @@ app.use(express.json({ limit: "1mb" }));
 app.get("/", (req, res) => {
   res.send("Backend working ✅");
 });
+
+// app.get("/api/chat", (req, res) => {
+//   res.send("GET Chat working");
+// });
+
+// app.post("/api/chat", (req, res) => {
+//   res.send("Chat API working");
+// });
+
+
 
 // Routes
 app.use("/api", chatRoutes);         // if chat.js uses /chat inside
