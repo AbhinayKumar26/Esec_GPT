@@ -91,7 +91,7 @@
 
 
 
-import "./chat.css";
+import "./Chat.css";
 import { useContext, useState, useEffect } from "react";
 import { MyContext } from "./MyContext.jsx";
 import ReactMarkdown from "react-markdown";
