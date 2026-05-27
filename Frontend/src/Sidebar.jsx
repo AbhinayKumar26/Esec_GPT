@@ -54,7 +54,7 @@ function Sidebar() {
   };
 
   useEffect(() => {
-    // token nahi hoga to backend 401 देगा, इसलिए return
+    
     if (!idToken) return;
     getAllThreads();
   }, [idToken]);
