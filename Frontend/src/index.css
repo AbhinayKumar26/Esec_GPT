@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #212121;
+}
+
+body {
+  color: #ececec;
+  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+}
